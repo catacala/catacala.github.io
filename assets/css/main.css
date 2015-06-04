@@ -1089,11 +1089,11 @@
 	}
 
 	a {
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
-			text-decoration: none;
+			text-decoration: underline;
 		}
 
 	section > :last-child,
@@ -1270,6 +1270,10 @@
 
 			section:last-child {
 				margin-bottom: 0 !important;
+			}
+
+            h1 {
+				font-size: 2.75em;
 			}
 
 		/* Wrappers */
@@ -1452,6 +1456,10 @@
 
 			body {
 				min-width: 1000px;
+			}
+
+            h1 {
+				font-size: 2.25em;
 			}
 
 		/* Multi-use */
