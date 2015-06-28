@@ -1660,6 +1660,7 @@
 
             #banner-image {
                 width: 368px;
+                margin-left: -20% !important;
             }
 
 		/* Features */
@@ -1799,6 +1800,11 @@
 				box-shadow: inset 0px -20px 70px 0px rgba(200, 220, 245, 0.1), inset 0px -1px 0px 0px rgba(255, 255, 255, 0.1), 0px 1px 7px 0px rgba(0, 0, 0, 0.6);
 				text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 			}
+			
+				#titleBar img {
+					max-width: 100%;
+					vertical-align: middle;
+				}
 
 				#titleBar .title {
 					display: block;
